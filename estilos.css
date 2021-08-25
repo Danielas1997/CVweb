@@ -1,0 +1,300 @@
+*{
+	font-weight: 100;
+	font-family: 'Roboto', sans-serif;
+}
+
+.contenedor-fondo{
+	background-image: url("imagenes/fondoedit.png");
+	background-size: 100% 100%;
+	padding: 200px;
+}
+
+.contenedor-texto-fondo{
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.nombre-h1{
+	font-size: 60px;
+	font-weight: 900;
+	border-bottom: 5px solid #EF7966;
+	width: 45%;
+	text-align: center;
+	margin-bottom: 10px;
+
+}
+
+.carrera-h3{
+	Letter-spacing: 2px;
+	font-size: 23px;
+	margin-bottom: 10px;
+}
+
+.flex-contendor-info{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.p-contacto{
+	display: inline;
+} 
+.negrita{
+	font-weight: bold;
+	margin: 0 5px;
+}
+
+.fa-envelope{
+	margin-left:30px;
+}
+
+.contenedor-nav{
+	background:#F6F2ED;
+	height: 50px;
+	box-shadow: 5px 3px 6px  #d0d0d0;
+	position: relative;
+}
+
+.contenedor-position{
+	position: absolute;
+	left: 45%;
+	top: 45%;
+}
+
+.conetendor-flex-img{
+	display: flex;
+	justify-content: center;
+}
+
+.contenedor-img{
+	background: #F6F2ED;
+	border-radius: 100%;
+	height: 210px;
+	width: 210px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px 3px 6px  #d0d0d0;
+}
+
+.imgen{
+	height: 190px;
+	width: 190px;
+	border-radius: 100%;
+
+}
+
+.contenedor-info{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 620px;
+}
+
+.contenedor-quiensoy{
+	background: #F8F7F5;
+}
+
+.contenedor-margininfo{
+
+	margin: 120px 60px 100px 60px;
+
+}
+
+.info-line{
+	background: #EF7966;
+	margin-top: 5px;
+	margin-bottom: 40px;
+	height: 5px;
+	width: 80px;
+}
+
+.contenedor-datos_personales{
+	background: #fff;
+}
+
+
+.flex-datos_personales{
+	display: flex;
+}
+.b-info{
+	font-weight: 600;
+	padding-right: 8px;
+}
+
+.contenedor-educacion{
+	background: #EAE8E8;
+}
+.i-info{
+	font-style: italic;
+	color: #9E9D9D;
+	padding-top: 10px;
+	padding-left: 40px ;
+	font-size: 12px;
+}
+
+.p-info{
+	color: #686666;
+	padding: 5px 0 35px 40px;
+
+}
+
+.contenedor-alineacion{
+	display: flex;
+	flex-direction: row;
+}
+.bola-color{
+	background: #EF7966;
+	height: 20px;
+	width: 20px;
+	border-radius: 100%;
+	margin-right: 20px;
+}
+
+.contenedor-experiencia{
+	background: #fff;
+}
+
+.Contenedor-info_jefe{
+	color: #686666;
+	padding-left: 40px;
+	padding-top: 5px;
+	font-size: 15px;
+}
+
+.contenedor-texto_exp{
+	color: #373737;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+
+.nav-habilidades{
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+	font-weight: 600;
+	color: #373737;
+
+}
+
+.contendor-habilidades{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 750px;
+}
+
+.habilidades_herramientas{
+	background: #EAE8E8;
+}
+
+.contenedor-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+.contenedor-img_tools{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.img-size{
+
+	height: 80px;
+	width: 80px;
+	margin-bottom: 15px;
+}
+
+.img-size_SQL{
+
+	height: 50px;
+	width: 100px;
+	margin-bottom: 15px;
+
+}
+
+.img-size_react{
+
+	height: 80px;
+	width: 90px;
+	margin-bottom: 15px;
+}
+
+.hablidades-blandas{
+	background: #fff;
+	font-size: 18px;
+}
+
+.contenedor-text_hab{
+	display: flex;
+	margin: 25px 0;
+}
+
+.bola-color_habilidad{
+	background: #EF7966;
+	height: 15px;
+	width: 15px;
+	border-radius: 100%;
+	margin-right: 10px;
+}
+.nivel_de_ingles{
+	background: #F8F7F5;
+}
+.contenedor_figura{
+	margin-left: 180px;
+}
+.circulo_ingles{
+	background: #9E9D9D;
+	height: 120px;
+	width: 120px;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.semucirculo_ingles{
+	width: 70px; 
+    height: 119px; 
+    background: #EF7966;
+    border-radius: 100px 0px 0px 100px;
+    margin-right: 50px;
+    display: block;
+}
+.contenedor_temp{
+	height: 120px;
+	width: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.cirlo_blanco_ingles{
+	background: #F8F7F5;
+	height: 70px;
+	width: 70px;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contenedor-texto_ingles{
+	margin-top: 50px;
+}
+
+.contendor-footer{
+	background: #EF7966;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+}
+
+.img-footer{
+	height: 35px;
+	border-radius: 100%;
+	margin: 5px 10px;
+}
